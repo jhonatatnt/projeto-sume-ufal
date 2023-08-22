@@ -178,14 +178,12 @@
 		}
 		@media only screen and (max-height: 900px) {
 			#container{
-				background-color: lightcoral;
 				max-height: 57.5vh;
 			}
 		}
 
 		@media only screen and (max-height: 720px) {
 			#container{
-				background-color: lightcoral;
 				max-height: 55vh;
 			}
 			table{
