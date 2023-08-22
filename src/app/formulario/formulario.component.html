@@ -1,0 +1,47 @@
+<div id="container" #container>
+
+    <header>
+        <button id="btn_back" style="display: none;" #btnBack><img src="assets/img/icn_btn_back.png" onclick="location.reload();"></button>
+        <h1 class="title" id="title" #title>Busca frequência por nome</h1>
+    </header>
+
+    <form method="get" class="form" id="form" action="" #form>
+
+        <div class="inputs">
+            <label for="text_Name" title="Nome">Nome</label>
+            <input type="text" name="text_Name" placeholder="Insira um nome. Ex.: Severino" value="severino" #textName>
+        </div>
+
+        <div class="btns">
+            <button (click)="ngAfterViewInit($event)" style="background: #227bbc">Buscar</button>
+            <button onclick="alert('Operação cancelada com sucesso!')" style="background:#c82333">Cancelar</button> 
+        </div>
+
+    </form>
+
+
+    <table id="table" #table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Periodo</th>
+          <th>Frequência</th>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-container *ngFor="let dado of Dados; let i = index">
+          <tr *ngFor="let periodo of dado.res; let j = index">
+            <td>{{ j + 1 }}</td>
+            <td>{{ periodo.periodo }}</td>
+            <td>{{ periodo.frequencia }}</td>
+          </tr>
+        </ng-container>
+
+        <tr>
+          <td>Total</td>
+          <td></td>
+          <td>{{ totalFrequencia }}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
