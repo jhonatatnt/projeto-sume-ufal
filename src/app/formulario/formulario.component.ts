@@ -49,15 +49,13 @@ export class FormularioComponent implements OnInit {
       console.log("Campo 'Name' contém dados:", nameValue);
 
       this.container.nativeElement.style.height = '60vh';
-      this.container.nativeElement.style.margin = 'calc(20vh/2) auto';
+      this.container.nativeElement.style.margin = 'calc((100vh - 72.5vh)/2) auto';
       this.form.nativeElement.style.display = 'none'; 
       this.table.nativeElement.style.display = 'block';
       this.btnBack.nativeElement.style.display = 'block';
       this.title.nativeElement.innerHTML = "Frequência por: " + nameValue;
-      // condicional da largura da tela
-      // this.title.nativeElement.innerHTML = ("Frequência por: " + nameValue).slice(0, 24);
     } else {
-      console.log("Campo 'Name' está vazio.");
+      alert("Campo 'Nome' está vazio.");
     }
   }
 }
