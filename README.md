@@ -6,7 +6,7 @@ Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 
 Referências:
 
-Curso de Angular (Loiane Groner) - Aulas de boas práticas e aplicao do Angular.js
+Curso de Angular (Loiane Groner) - Aulas de boas práticas e aplições do Angular.js
 https://youtube.com/playlist?list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G
 
 Chatgpt - Auxiliou no entendimento da hierarquia de conteudo a ser estudado
