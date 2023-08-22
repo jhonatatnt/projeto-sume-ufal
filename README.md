@@ -1,6 +1,6 @@
 # ProjetoSumeUfal
 
-Avaliação de competência em Angular.js para o projeto-sume.
+Avaliação de competência em Angular.js para o projeto sumé.
 
 Esse projeto foi gerado com Angular CLI versão 16.2.0.
 
