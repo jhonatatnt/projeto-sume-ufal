@@ -1,16 +1,16 @@
 # ProjetoSumeUfal
 
-Avaliação de competencia em Angular.js para o projeto-sume.
+Avaliação de competência em Angular.js para o projeto-sume.
 
-Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 16.2.0.
+Esse projeto foi gerado com Angular CLI versão 16.2.0.
 
 Referências:
 
-Curso de Angular (Loiane Groner) - Aulas de boas práticas e aplições do Angular.js
+Curso de Angular (Loiane Groner) - Aulas de boas práticas e aplicações do Angular.js 
 https://youtube.com/playlist?list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G
 
-Chatgpt - Auxiliou no entendimento da hierarquia de conteudo a ser estudado
+Chat Gpt - Auxiliou no entendimento da hierarquia de conteúdo a ser estudado 
 https://chat.openai.com/
 
-Guia online sobre as linguagems HTML, CSS, JAVASCRIPT e outras
+Guia online sobre as linguagens HTML, CSS, JAVASCRIPT e outras 
 https://www.w3schools.com/html/
