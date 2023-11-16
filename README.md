@@ -1,8 +1,7 @@
 # ProjetoSumeUfal
 
-Avaliação de competência em Angular.js para o projeto sumé.
-
-Esse projeto foi gerado com Angular CLI versão 16.2.0.
+Avaliação de competência em Angular.js para o projeto sumé do Laboratório de Computação Científica e Visualização (LCCV - UFAL)
+Esse projeto foi gerado com Angular CLI - versão 16.2.0.
 
 Referências:
 
